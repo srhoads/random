@@ -4,7 +4,7 @@ n <- 200
 
 # Define the UI
 ui <- bootstrapPage(
-  numericInput('n', 'Number of obs', n),
+  numericInput('n', 'IF YOU SEE THIS TEXT, SOMEHTING AMAZING HAPPENED!!!!', n),
   plotOutput('plot')
 )
 
